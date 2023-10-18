@@ -1,0 +1,63 @@
+.pagamento {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding-top: 2em;
+    width:100%;
+}
+.pagamento__titulo {
+    font-size: 25px;
+    text-align: center;
+    text-transform:uppercase;
+}
+
+.pagamento__texto {
+    font-size:11px;
+    text-align:center;
+   
+}
+
+.pagamento__lista {
+    font-size: 15px;
+}
+
+.pagamento__img {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:30%;
+}
+
+.pagamento__img-item {
+    margin-right: 1em;
+  
+
+}
+
+@media screen and (min-width: 700px) {
+
+   
+
+    .pagamento__titulo {
+        font-size: 50px;
+       
+    }
+
+    .pagamento__texto {
+        font-size:30px;
+        
+       
+    }
+
+    .pagamento__lista {
+        font-size: 30px;
+    }
+
+    .pagamento__img-item {
+        
+        width:80%;
+    }
+
+    
+
+}

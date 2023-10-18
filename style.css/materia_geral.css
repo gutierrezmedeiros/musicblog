@@ -1,0 +1,45 @@
+.materias-lista-links {
+    padding: 2em 0 0 4em;
+    font-size: 10px;
+    
+}
+
+.materias-lista-links-item:hover {
+    color: blue;
+}
+
+.materias {
+    
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.materia-titulo {
+    font-size:30px;
+    text-align: center;
+    padding: 1em;
+
+}
+    
+
+.materia-texto {
+    
+    padding:2em;
+    text-align: center;
+    padding: 1em;
+
+}
+
+.materia-imagem {
+   margin:2em;
+    width: 40%;
+    
+}
+
+.tabela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
